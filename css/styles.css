@@ -252,13 +252,16 @@ ul {
   margin-right: 0;
 }
 
-.features-item::before {
-  display: block;
-  content: '';
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
+.features-box {
   background-color: var(--team-bg-color);
+}
+
+/* Параметри для іконок особливості */
+.features-icon {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .features-title {
@@ -358,15 +361,17 @@ ul {
 }
 
 .position-name {
+  margin-bottom: 16px;
+
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
 
+/* Іконки */
 .team-socials {
   display: flex;
-  padding-top: 16px;
   padding-left: 32px;
   padding-right: 32px;
 }
@@ -416,6 +421,10 @@ ul {
   border: 1px solid var(--border-clients-static) ;
 }
 
+.clients-item:hover {
+  border: 1px solid var(--interactive-text-color);
+}
+
 .clients-item:nth-last-child(1){
   margin-right: 0;
 }
@@ -428,6 +437,15 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
+}
+
+.clients-icon {
+  padding: 16px 32px;
+  fill: var(--border-clients-static);
+}
+
+.clients-item:hover .clients-icon {
+  fill: var(--interactive-text-color);
 }
 
 /* -------ПОРТФОЛІО------- */
