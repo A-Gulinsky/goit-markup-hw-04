@@ -150,8 +150,9 @@ ul {
   margin-left: auto;
 }
 
+
 .info-item {
-  display: block;
+  display:block;
   margin-right: 50px;
 }
 
@@ -160,9 +161,9 @@ ul {
 }
 
 .info-contact {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 31px;
+  display: flex;
+  /* padding-top: 32px;
+  padding-bottom: 31px; */
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -175,6 +176,35 @@ ul {
 .info-contact:focus {
   color: var(--interactive-text-color);
 } 
+
+.info-envelope {
+  padding-top: 34px;
+  padding-bottom:33px;
+  margin-right: 10px;
+
+  fill: var(--secondary-text-color);
+}
+
+.info-contact:hover .info-envelope {
+  fill: var(--interactive-text-color);
+}
+
+.info-span {
+  padding-top: 32px;
+  padding-bottom: 31px;
+}
+
+.info-smartphone {
+  padding-top: 32px;
+  padding-bottom: 31px;
+  margin-right: 10px;
+
+  fill: var(--secondary-text-color);
+}
+
+.info-contact:hover .info-smartphone {
+  fill: var(--interactive-text-color);
+}
 
 /* -----СТУДІЯ----- */
 
