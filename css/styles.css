@@ -364,6 +364,44 @@ ul {
   text-align: center;
 }
 
+.team-socials {
+  display: flex;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.icon-link {
+  display: block;
+  padding-top: 12px;
+  padding-left: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.icon-list {
+  margin-left: 10px;
+}
+
+.icon-list:nth-child(1) {
+  margin-left: 0;
+}
+
+.icon-link:hover {
+  background-color: var(--interactive-text-color);
+}
+
+.icon-link:hover .team-svg {
+  fill: var(--additional-text-color);
+}
+
+.team-svg {
+  fill: var(--border-clients-static);
+  width: 20px;
+  height: 20px;
+}
+
 /* Наші клієнти */
 .clients-list {
   display: flex;
@@ -550,4 +588,52 @@ text-align: center;
 .footer-address:hover,
 .footer-address:focus {
   color: var(--interactive-text-color);
+}
+
+/* Footer socials */
+
+.footer-socials {
+  padding-top: 12px;
+  margin-left: 70px;
+}
+
+.socials-title {
+  margin-bottom: 20px;
+  color: var(--additional-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials-link {
+  display: block;
+  padding-top: 12px;
+  padding-left: 12px;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.socials-list {
+  margin-left: 10px;
+}
+
+.socials-list:nth-child(1) {
+  margin-left: 0;
+}
+
+.socials-link:hover {
+  background-color: var(--interactive-text-color);
+}
+
+.socials-svg {
+  fill: var(--additional-text-color);
+  width: 20px;
+  height: 20px;
 }
