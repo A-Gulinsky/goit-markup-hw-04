@@ -284,6 +284,7 @@ ul {
 
 .features-box {
   background-color: var(--team-bg-color);
+  margin-bottom: 30px;
 }
 
 /* Параметри для іконок особливості */
